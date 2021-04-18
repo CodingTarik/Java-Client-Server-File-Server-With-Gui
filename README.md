@@ -2,7 +2,7 @@
 Implementation of simple custom file server protocol. The commands of the protocol are provided in package "pis.hue2.common.instruction.java". Both server and client offers are GUI.
 
 ## Preview
-![](Assets/preview.gif)
+![](assets/preview.gif)
 
 ## Clone🔄
 > You need at least java 8
