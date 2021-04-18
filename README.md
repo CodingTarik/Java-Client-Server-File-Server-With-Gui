@@ -1,5 +1,5 @@
 # Java Client Server File-Server With Gui💾
-Implementation of simple custom file server protocol. The commands of the protocol are provided in package "pis.hue2.common.instruction.java". Both server and client offers are GUI.
+Implementation of simple custom file server protocol. The commands of the protocol are provided in package "pis.hue2.common.instruction.java". Both server and client offers a GUI.
 
 ## Preview
 ![](assets/preview.gif)
