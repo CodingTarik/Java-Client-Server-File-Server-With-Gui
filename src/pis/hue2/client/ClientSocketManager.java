@@ -36,7 +36,7 @@ public class ClientSocketManager {
 
 	/**
 	 * Initalisiert den SocketManager
-	 * 
+	 *
 	 * @param socket
 	 */
 	public ClientSocketManager(final Socket socket) {
@@ -262,7 +262,6 @@ public class ClientSocketManager {
 	 * @param pathToFile der Pfad zur Datei
 	 */
 	public void UploadFile(final String pathToFile) {
-
 		new Thread(() -> {
 			synchronized (this.lockObject) {
 				if (this.handshakeDone) {

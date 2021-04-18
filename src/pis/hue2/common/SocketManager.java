@@ -79,7 +79,6 @@ public class SocketManager {
 		for (int i = 0; i < 3; i++) {
 			this.WaitForCharacter();
 			instructionString.append((char) this.buffInputStreamReader.read());
-
 		}
 		System.out.println(instructionString.toString() + " received ");
 		// Die Instruktion wurde gelesen, jetzt können wir hier ein Datenpaket anlegen
